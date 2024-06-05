@@ -1,0 +1,10 @@
+<ivy-module version="2.0">
+  <info organisation="bundledPlugin" module="com.intellij.copyright" revision="2024.1.2+482" publication="20240605012632"/>
+  <configurations>
+    <conf name="default" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="/Users/hmignotte/.gradle/caches/transforms-3/dfdc08914816e4093bfdd64b195e3ed1/transformed/ideaIC-2024.1.2-win/plugins/copyright" type="directory" conf="default"/>
+  </publications>
+  <dependencies/>
+</ivy-module>

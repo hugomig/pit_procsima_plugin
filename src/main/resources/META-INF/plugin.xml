@@ -1,0 +1,16 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.gohu.pit_procsima_plugin</id>
+    <name>Pit Procs Plugin</name>
+    <version>1</version>
+    <product-descriptor>Blabla</product-descriptor>
+    <name>Pit_procsima_plugin</name>
+    <vendor>Hugo Mignotte</vendor>
+    <description>Ce plugin sert à injecter des services dans Pithagore et Procsime</description>
+    <actions>
+        <action id="InjecterUnService" class="com.gohu.pit_procsima_plugin.InjecterService" text="Injecter Un Service">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="alt shift Z"/>
+        </action>
+    </actions>
+</idea-plugin>
